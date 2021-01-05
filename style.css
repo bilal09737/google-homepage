@@ -1,0 +1,111 @@
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+.r_section {
+    float: right;
+    padding-right: 15px;
+}
+
+.l_section {
+    float: left;
+    padding-left: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    margin: .2em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav {
+    width: 100%;
+    height: 5vh;
+}
+
+footer {
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: 0;
+    overflow-x: none;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.bc{
+    min-width: 10px;
+}
+#signin {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+    
+}
+#search {
+    min-width: 30%;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.m_search {
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.m_search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    
+}
+#image_sol {
+    width: 13px;
+}
